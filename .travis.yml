@@ -25,7 +25,7 @@ branches:
 # 调整时区
 before_install:
   - export TZ='Asia/Shanghai'
-  - sudo apt-get install -y calibre
+  - sudo apt-get install -y calibre fonts-arphic-gbsn00lp
  
 # 安装环境
 install:
