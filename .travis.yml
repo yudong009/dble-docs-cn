@@ -13,7 +13,6 @@ cache:
 notifications:
   email:
     recipients:
-      - yudong009@gmail.com
       - $NF_MAIL1
     on_success: change # default: change
     on_failure: always # default: always
@@ -38,6 +37,8 @@ install:
 script:
   - gitbook build
   - gitbook pdf ./ ./dble-manual.pdf
+  
+after_script:
   - cp ./seo/* ./_book/
   - cd ./_book
   - git init
