@@ -14,8 +14,7 @@ notifications:
   email:
     recipients:
       - $NF_MAIL1
-      - yanhuqing@acionsky.com
-      - yudong009@gmail.com
+      - yanhuqing@actionsky.com
     on_success: always # default: change
     on_failure: always # default: always
 
