@@ -13,8 +13,7 @@ cache:
 notifications:
   email:
     recipients:
-      - ${NF_MAIL1}
-      - yanhuqing@actionsky.com
+      - yudong009@gmail.com
     on_success: always # default: change
     on_failure: always # default: always
 
