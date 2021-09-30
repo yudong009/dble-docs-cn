@@ -1,10 +1,23 @@
 {
-    "plugins": ["expandable-chapters"],
+    "plugins": ["expandable-chapters"],[ "versions-select" ],
     "pluginsConfig": {
         "fontsettings": {
             "theme": "sepia",
             "family": "sans",
             "size": 2
+        },
+        "versions": {
+          "gitbookConfigURL": "https://raw.githubusercontent.com/yudong009/dble-docs-cn/master/book.json",
+          "options": [
+            {
+              "value": "https://github.com/yudong009/dble-docs-cn/tree/gh-pages",
+              "text": "Version test1"
+            },
+            {
+              "value": "https://github.com/yudong009/dble-docs-cn/tree/gh-pages",
+              "text": "Version test2"
+            }
+          ]
         },
 	"plugins": [
 	"yahei",
